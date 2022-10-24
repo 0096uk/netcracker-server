@@ -39,7 +39,6 @@ public class NCFileController {
 		return Response.success(NCFileList);
 	}
 	
-	@CrossOrigin
 	@PostMapping("/add")
 	public ResponseEntity<?> saveNCFile(NCFileDTO dto){
 		
